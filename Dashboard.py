@@ -16,7 +16,7 @@ def formata_numero(valor, prefixo= ''):
     return f'{prefixo}{valor:.2f} milhões'
     
 # Titulo 
-st.title('DASHBOARD DE VENDAS :shopping_trolley:')
+st.title('DASHBOARD DE VENDAS 🛒')
 
 
 
@@ -208,4 +208,5 @@ else:
     st.error(f"Erro ao fazer a requisição. Status code: {response.status_code}")
     st.text("Conteúdo da resposta:")
     st.text(response.text)
+
 
